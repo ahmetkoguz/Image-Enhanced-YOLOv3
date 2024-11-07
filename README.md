@@ -1,5 +1,5 @@
 # Image-Enhanced-YOLOv3
-* Demo video: [https://drive.google.com/file/d/19rzHdfKdYFGxH0o-WhMtMf6FLCp5rkax/view?usp=drive_link](https://1drv.ms/v/c/64907ae47798c14c/EVu5Bcr2vuFPjpSzx_1_NHIBq3s0i8BM_LPGkz5eBX9yZA?e=5Tm8s6)
+* Demo video: https://1drv.ms/v/c/64907ae47798c14c/EVu5Bcr2vuFPjpSzx_1_NHIBq3s0i8BM_LPGkz5eBX9yZA?e=5Tm8s6
 
 * To get started, you need to first download the YOLOv3 weights. To do so, run the following command in the yolo-coco folder: `wget https://pjreddie.com/media/files/yolov3.weights`.
 
