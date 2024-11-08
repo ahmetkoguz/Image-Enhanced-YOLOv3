@@ -7,6 +7,6 @@
 
 * When loading in the data, the VOCDetection loader function in image_enhanced_yolov3 wants images in jpg but dataset was provided in png, so either convert images or change function to use png in the VOCBase class.
 
-* To download dependencies, run: `$ pip install -r ./docs/requirements.txt`.
+* To download dependencies, run: `pip install -r ./docs/requirements.txt`.
 
 * To run enhanced model: `python image_enhanced_yolov3.py`. To run YOLOv3 model, without any filtering `python yolov3_detection.py`
