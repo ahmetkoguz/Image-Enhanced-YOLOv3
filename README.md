@@ -3,9 +3,9 @@
 
 * To get started, you need to first download the YOLOv3 weights. To do so, run the following command in the yolo-coco folder: `wget https://pjreddie.com/media/files/yolov3.weights`.
 
-* To download the dataset used, used the following command in the root of the project: `gdown `
+* To download the dataset used (RESIDE), go to the following website: https://utexas.app.box.com/s/2yekra41udg9rgyzi3ysi513cps621qz. Once downloaded and unzipped, under Dataset/VOCdevkit/VOC2007, place the Annotations and JPEGImages folders, replacing the current ones. As an example, one image and one annotation is placed to show the necessary format.
 
-* When loading in the data, the VOCDetection loader function in image_enhanced_yolov3 wants images in jpg but dataset was provided in png, so either convert images or change function to use png.
+* When loading in the data, the VOCDetection loader function in image_enhanced_yolov3 wants images in jpg but dataset was provided in png, so either convert images or change function to use png in the VOCBase class.
 
 * To download dependencies, run: `$ pip install -r ./docs/requirements.txt`.
 
