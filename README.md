@@ -10,3 +10,5 @@
 * To download dependencies, run: `pip install -r ./docs/requirements.txt`.
 
 * To run enhanced model: `python image_enhanced_yolov3.py`. To run YOLOv3 model, without any filtering `python yolov3_detection.py`
+
+* To run the enhanced model on the overall test dataset or just see the result on one image, adjust the show_images parameter in prediction_accuracy function.
